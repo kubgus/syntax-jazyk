@@ -41,3 +41,15 @@ alebo
 ```
 pravdivost [nazov premennej] = [premenna 1] [operator] [premenna 2]
 ```
+
+## Navigacia 🚀
+
+### Oznac 🏷️
+```
+oznac [nazov oznacenia]
+```
+
+### Preskoc 🏃
+```
+preskoc [nazov oznacenia]
+```
