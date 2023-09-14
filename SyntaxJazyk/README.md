@@ -1,13 +1,12 @@
 # Nauč sa programovať v SynJaze! ⚡
 
-## Pokiaľ 🤔
+## Ak 🤔
 Zisti, či je niečo pravda alebo lož. Pravdivosť musí byť vo forme premennej!
 ```
-pokial [pravidvost]
+ak [pravidvost]
 [...prikazy]
 koniec
 ```
-> **Tip:** Nepomýľ si tento príkaz s "ak".
 
 ## Vytlač 📃
 Zobraz svoj text v terminále! Môžeš špecifikovať jednu alebo viac premenných rôzneho typu.
