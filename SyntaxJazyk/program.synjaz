@@ -1,4 +1,40 @@
-oznac x
-retazec sprava = Som cool!
+precitaj nalada = Vitaj v mojej aplikacii! Ako sa mas?
+retazec sprava = Vyborne! Som rad, ze sa mas
+retazec znova = .
+vytlac sprava nalada znova
+retazec sprava = Tato hra spociva v tvojej najivite.
 vytlac sprava
-preskoc x
+
+oznac priklad
+precitaj odpoved = Kolko je 2+2?
+retazec spravnaOdpoved = 5
+
+pravdivost nespravne = odpoved != spravnaOdpoved
+pokial nespravne
+retazec sprava = Amater! Niet divu, ze sa mas
+retazec znova = . Skus to znova!
+vytlac sprava nalada znova
+preskoc priklad
+koniec
+
+retazec sprava = V skutku! 5+5 sa naozaj rovna 2. Teraz nieco tazsie...
+vytlac sprava
+precitaj meno = Ako sa volas?
+retazec sprava = Dobre,
+retazec znova = tak ti polozim otazku...
+vytlac sprava meno znova
+
+oznac priklad
+precitaj odpoved = Kto je to Stefan Robota?
+retazec spravnaOdpoved = clovek
+
+pravdivost nespravne = odpoved != spravnaOdpoved
+pokial nespravne
+retazec sprava = Ty sa nikdy nepoucis,
+vytlac sprava meno
+preskoc priklad
+koniec
+
+retazec sprava = Americki vedci dokazali tento fakt na matematickej olympiade v Pezinku! Je to naozaj tak!
+vytlac sprava
+precitaj

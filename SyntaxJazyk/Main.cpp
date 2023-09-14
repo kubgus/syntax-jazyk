@@ -76,8 +76,7 @@ int main() {
                     for (int i = 3; i < tokens.size(); i++) {
                         cout << tokens[i] + " ";
                     }
-                    cin >> stringVariables[tokens[1]];
-                    cin.ignore();
+                    getline(cin, stringVariables[tokens[1]]);
                 }
             }
             else if (operation == "retazec" && tokens.size() >= 4 && tokens[2] == "=") {
