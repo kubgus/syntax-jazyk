@@ -1,4 +1,4 @@
-# SyntaxJazyk
+# Nauč sa programovať v SynJaze! ⚡
 
 ## Pokiaľ 🤔
 Zisti, či je niečo pravda alebo lož. Pravdivosť musí byť vo forme premennej!
