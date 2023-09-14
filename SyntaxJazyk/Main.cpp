@@ -52,7 +52,7 @@ int main() {
         string operation = tokens[0];
 
         if (conditionalStack.empty() || (!conditionalStack.empty() && conditionalStack.back())) {
-            if (operation == "pokial" && tokens.size() == 2) {
+            if ((operation == "ak" || operation == "pokial") && tokens.size() == 2) {
                 conditionalStack.push_back(booleanVariables[tokens[1]]);
             }
             else if (operation == "vytlac" && tokens.size() >= 2) {
