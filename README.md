@@ -16,7 +16,7 @@ Ak dostaneš túto závažnú chybu, máš v realite len dve možnosti:
 
 Keď máš všetko hotové, gratulujem! Môžeš sa pustiť do kódovania s tým najvlasteneckejším programovacím jazykom v dejinách.
 
-[Nauč sa programovať!](/SyntaxJazyk)
+[Nauč sa programovať!](/SyntaxJazyk/README.md)
 
 V súbore `program.synjaz` naprogramuj funkciu tvojho revolučného riešenia a kliknutím na súbor `SyntaxJazyk.exe` appku spustíš.
 
