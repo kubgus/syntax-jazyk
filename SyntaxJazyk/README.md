@@ -7,24 +7,55 @@ ak [pravidvost]
 [...prikazy]
 koniec
 ```
+> **Poznámka:** Pravdivosť musí byť vo forme premennej!
 
-## Vytlač 📃
-Zobraz svoj text v terminále! Môžeš špecifikovať jednu alebo viac premenných rôzneho typu.
+## Výstup 📃
+
+### Vytlač 🖨️
+Zobraz ľubovoľný text v terminále.
 ```
-vytlac [...premenna]
+vytlac [...text]
 ```
+alebo iba
+```
+vytlac
+```
+
+### Prečítaj 🔍
+Zobraz obsah premennej v terminále. Môžeš špecifikovať jednu alebo viac premenných rôzneho typu.
+```
+precitaj [...nazov premennej]
+```
+
+### Vyčisti 🧼
+Zmaž všetok text zobrazený v okne terminálu.
+```
+vycisti
+```
+
+### Farba 🎨
+Zmeň farbu textu.
+```
+farba [nazov farby]
+```
+Dostupné farby:
+`cierna`, `cervena`, `zelena`, `zlta`, `modra`, `ruzova`, `tyrkysova`, `biela`
+
+## Vstup ⌨️
+
+### Získaj 📥
+Získaj vstup od používateľa a ulož ho do premennej. Vždy vráti reťazec.
+```
+ziskaj [nazov premennej] = [...informacia pre pouzivatela ako text]
+```
+alebo iba
+```
+ziskaj
+```
+na pozastavenie exekúcie.
+> **Poznámka:** Informácia pre používateľa sa zobrazí pred vstupom.
 
 ## Premenné 📦
-
-### Prečítaj 📥
-Získaj vstup od používateľa na základe nejakej správy. Vždy vráti reťazec.
-```
-precitaj [nazov premennej] = [informacia pre pouzivatela]
-```
-alebo
-```
-precitaj
-```
 
 ### Reťazec 💬
 Akýkoľvek súbor znakov. Nepodporuje matematické operácie. Kus textu.

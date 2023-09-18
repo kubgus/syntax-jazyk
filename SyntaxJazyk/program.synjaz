@@ -1,39 +1,28 @@
-precitaj nalada = Vitaj v mojej aplikacii! Ako sa mas?
-retazec sprava = Vyborne! Som rad, ze sa mas
-vytlac sprava nalada
-retazec sprava = Tato hra spociva v tvojej najivite.
-vytlac sprava
+retazec P = P
+retazec X = X
 
-oznac priklad
-precitaj odpoved = Kolko je 2+2?
-retazec spravnaOdpoved = 5
+oznac zahajenie
 
-pravdivost nespravne = odpoved != spravnaOdpoved
-ak nespravne
-retazec sprava = Amater! Niet divu, ze sa mas
-retazec znova = . Skus to znova!
-vytlac sprava nalada znova
-preskoc priklad
+vycisti
+farba zelena
+
+vytlac Synjaz Interface
+vytlac
+vytlac [P] Pozdrav
+vytlac [X] Exit
+vytlac
+ziskaj vstup = >
+
+pravdivost jeP = vstup == P
+ak jeP
+vycisti
+farba zlta
+vytlac Ahoj!
+ziskaj
+preskoc zahajenie
 koniec
 
-retazec sprava = V skutku! 5+5 sa naozaj rovna 2. Teraz nieco tazsie...
-vytlac sprava
-precitaj meno = Ako sa volas?
-retazec sprava = Dobre,
-retazec znova = tak ti polozim otazku...
-vytlac sprava meno znova
-
-oznac priklad
-precitaj odpoved = Kto je to Stefan Robota?
-retazec spravnaOdpoved = clovek
-
-pravdivost nespravne = odpoved != spravnaOdpoved
-ak nespravne
-retazec sprava = Ty sa nikdy nepoucis,
-vytlac sprava meno
-preskoc priklad
+pravdivost niejeX = vstup != X
+ak niejeX
+preskoc zahajenie
 koniec
-
-retazec sprava = Americki vedci dokazali tento fakt na matematickej olympiade v Humennom! Je to naozaj tak!
-vytlac sprava
-precitaj
